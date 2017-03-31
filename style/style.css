@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box!important;
+}
+
+h1 {
+  font-size: 1.5rem!important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.Home {
+  background-color: #354052!important;
+}
+
+.Home .d-flex {
+  min-height: 89vh;
+}
+
+.btn.btn-github {
+  width: 250px;
+  position: relative;
+  padding: 15px!important;
+  background-color: #fff;
+  color: inherit;
+  border-color: rgb(0, 0, 0);
+}
+
+.btn.btn-github:hover,
+.btn.btn-github:focus {
+  color: #eeeeee;
+  background-color: #444444;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-github span {
+  margin-left: 20px
+}
+
+.btn-github i {
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  margin-right: 25px;
+  line-height: 50px;
+  font-size: 34px!important;
+  width: 50px;
+  border-right: 1px solid black;
+}
+
+.header {
+  background-color: #354052;
+  color: white;
+  padding: 0px;
+}
+
+.list-group-item {
+  background-color: inherit!important;
+}
+
+.menu-parent {
+  background-color: #354052;
+  color: #ecf2f6;
+  text-align: center;
+  padding-left:0!important;
+  padding-right:0!important;
+  border-top: 6px solid #484848;
+  flex: 0 0 14.66%!important;
+  max-width: 14.66%!important;
+}
+
+.nav-link {
+  padding: 0.4em 0.9em!important;
+}
+
+.Menu i.fa {
+  font-size: 2em;
+  margin-right: 10px
+}
+
+.Menu a {
+  color:#ecf2f6;
+}
+
+.Menu a:hover,
+.Menu a:focus {
+  color:#A9ADB0; 
+}
+
+.dashboard-parent {
+  background-color: #c6ccd6;
+  text-align: center;
+  flex: 0 0 85.33%!important;
+  max-width: 85.33%!important;
+}
+
+.buffer {
+  height:20px;
+  background-color:darkgray;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.nav-item {
+  margin-left:10px;
+}
