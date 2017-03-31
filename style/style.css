@@ -83,6 +83,8 @@ html, body {
 
 .Menu a {
   color:#ecf2f6;
+  font-size: 0.85em;
+  padding: .75rem 1.0rem;
 }
 
 .Menu a:hover,
